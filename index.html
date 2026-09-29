@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museu do Futuro - Garfo para sopa</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffd8d8;
+            color: rgb(5, 5, 5);
+        }
+
+        header{
+            background-color: #1b1b1b;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header p {
+            color: #c9b471;
+        }
+
+        nav{
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover{
+            color: #e0c875;
+        }
+
+        main{
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        section{
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2{
+            border-bottom: 2px solid #c9b471;
+        }
+
+        .destaque{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .destaque img{
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .codigo{
+            color: #777;
+            font-size: 14px;
+        }
+
+        .etiqueta{
+            display: inline-block;
+            background-color: #c9b471;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .hipoteses{
+            display: flex;
+            gap: 15px;
+        }
+
+        article{
+            flex: 1;
+            background-color: azure;
+            padding: 18px;
+            border-radius: 8px;
+        }
+
+        aside{
+            background-color: #272727;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        blockquote{
+            border-left:  4px solid #c9b471;
+            margin-left: 0;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid #cccccc;
+            text-align: left;
+        }
+
+        th{
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .alert{
+            background-color: #fff1d6;
+            border-left: 6px solid #d59326;
+        }
+
+        footer{
+            background-color: #1b1b1b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 700px){
+            .destaque, .hipoteses{
+                flex-direction: column;
+            }
+            .destaque img{
+                width: 100px;
+            }
+            nav a{
+                display: block;
+            }
+
+            table{
+                font-size: 13px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>MUSEU DE ARQUEOLOGIA DIGITAL</p>
+
+      <h1>Arquivo Histórico — 2200</h1>
+
+      <p>Reconstruindo os misteriosos costumes da humanidade do século XXI.</p>
+    </header>
+
+    <nav>
+      <a href="#artefato">Artefato</a>
+      <a href="#descoberta">Descoberta</a>
+      <a href="#hipoteses">Hipóteses</a>
+      <a href="#evidencias">Evidências</a>
+      <a href="#arqueologo">Arqueólogo</a>
+    </nav>
+
+    <main>
+      <section id="artefato" class="destaque">
+        <img
+          src="garfofuturo.png"
+          alt="Garfo para sopa"
+        />
+
+        <article>
+          <p class="codigo">ARTEFATO #GS-2026-031</p>
+
+          <h2>Garfo para sopa</h2>
+
+          <p class="etiqueta">Importância cultural: 9/10</p>
+
+          <p>
+            Utensílio doméstico utilizado pela civilização brasileira do início
+            do século XXI, principalmente durante as refeições.
+          </p>
+
+          <p>
+            Registros digitais sugerem que seu papel estava diretamente ligado
+            aos hábitos alimentares e à convivência durante as refeições.
+          </p>
+
+          <p>Alguns habitantes da época chegaram a declarar:</p>
+
+          <blockquote>"Air fryer é vida."</blockquote>
+        </article>
+      </section>
+
+      <section id="descoberta">
+        <h2>Local da descoberta</h2>
+
+        <p>
+          O artefato foi encontrado em 17 de março de 2197 durante uma escavação
+          nas ruínas de um antigo condomínio residencial.
+        </p>
+
+        <p>
+          <strong>Local histórico:</strong>
+          Sorocaba, antiga região denominada São Paulo, Brasil.
+        </p>
+
+        <p>
+          O aparelho estava sobre uma superfície de pedra artificial que os
+          registros históricos chamavam de <strong>"pia da cozinha"</strong>.
+        </p>
+
+        <h3>Objetos encontrados próximos</h3>
+
+        <ul>
+          <li>Uma tigela contendo resíduos de sopa</li>
+          <li>Uma colher metálica</li>
+          <li>Dois garfos metálicos semelhantes</li>
+          <li>Um guardanapo de papel</li>
+          <li>Fragmentos de um cardápio em português</li>
+          <li>Um bilhete escrito à mão: "Não esquecer o garfo."</li>
+        </ul>
+
+        <blockquote>"Não usa o garfo para cortar carne."</blockquote>
+
+        <p>
+          Até hoje os arqueólogos não compreendem completamente a importância
+          deste aviso, embora ele indique que o utensílio tinha uma função específica.
+        </p>
+      </section>
+
+      <section>
+        <h2>Descrição física</h2>
+
+        <p>
+          O objeto apresenta formato alongado, com um cabo e quatro
+          pontas na extremidade frontal.
+        </p>
+
+        <p>
+          <strong>Comprimento:</strong> aproximadamente 20 cm<br />
+          <strong>Peso:</strong> aproximadamente 30 g<br />
+          <strong>Material:</strong> aço inoxidável<br />
+          <strong>Fonte energética:</strong> força manual
+        </p>
+
+        <p>
+          Durante alguns anos acreditou-se que as quatro pontas serviam
+          para prender pequenos objetos durante o transporte.
+        </p>
+
+        <p>
+          Essa teoria foi abandonada após pesquisadores encontrarem
+          marcas de alimento e resíduos secos na extremidade do utensílio.
+        </p>
+      </section>
+
+      <section>
+        <h2>Função provável</h2>
+
+        <p>
+          Simulações indicam que a Garfo para sopa utilizava circulação de ar
+          extremamente quente para preparar alimentos.
+        </p>
+
+        <p>
+          Entretanto, a quantidade de registros encontrados sugere que sua
+          importância social estava relacionada aos hábitos cotidianos de alimentação.
+        </p>
+
+        <blockquote>"Depois da Garfo para sopa nunca mais usei forno."</blockquote>
+
+        <blockquote>"Tudo vai na Garfo para sopa."</blockquote>
+
+        <p>
+          A expressão "tudo vai na Garfo para sopa" gerou décadas de discussão entre
+          historiadores.
+        </p>
+      </section>
+
+      <section id="hipoteses">
+        <h2>Principais hipóteses arqueológicas</h2>
+
+        <div class="hipoteses">
+          <article>
+            <h3>Hipótese A</h3>
+
+            <p>
+              <strong>Utensílio de mesa</strong>
+            </p>
+
+            <p>
+              A teoria mais aceita afirma que o objeto era utilizado para
+              pegar alimentos e conduzi-los até a boca durante as refeições.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese B</h3>
+
+            <p>
+              <strong>Objeto cotidiano</strong>
+            </p>
+
+            <p>
+              Alguns pesquisadores acreditam que possuir uma Garfo para sopa
+              demonstrava prosperidade doméstica.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese C</h3>
+
+            <p>
+              <strong>Ferramenta especializada</strong>
+            </p>
+
+            <p>
+              Esta teoria afirma que o utensílio era reservado para sopas
+              mais espessas e outros alimentos difíceis de pegar com uma colher.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reconstrução do uso cotidiano</h2>
+
+        <ol>
+          <li>Segurar o garfo pelo cabo.</li>
+
+          <li>
+            Selecionar aproximadamente
+            <strong>90°</strong>.
+          </li>
+
+          <li>
+            Escolher aproximadamente
+            <strong>alguns segundos</strong>.
+          </li>
+
+          <li>Posicionar as pontas sob o alimento.</li>
+
+          <li>Levantar o alimento com cuidado.</li>
+
+          <li>
+            Declarar:
+            <strong>"Ainda falta um pouco."</strong>
+          </li>
+
+          <li>Levar o alimento até a boca.</li>
+        </ol>
+
+        <p>
+          A expressão <strong>"só mais uma garfada"</strong>
+          aparece repetidamente em documentos históricos.
+        </p>
+      </section>
+
+      <section id="evidencias">
+        <h2>Evidências linguísticas</h2>
+
+        <p>
+          A interpretação da linguagem brasileira do século XXI foi uma das
+          maiores dificuldades da investigação.
+        </p>
+
+        <table>
+          <tr>
+            <th>Expressão encontrada</th>
+            <th>Interpretação em 2200</th>
+          </tr>
+
+          <tr>
+            <td>Garfo para sopa é vida</td>
+            <td>Possível valorização de utensílio cotidiano</td>
+          </tr>
+
+          <tr>
+            <td>Só com o garfo</td>
+            <td>Significado ainda desconhecido</td>
+          </tr>
+
+          <tr>
+            <td>Cuidado</td>
+            <td>Provável indicação de perigo</td>
+          </tr>
+
+          <tr>
+            <td>Pode pegar</td>
+            <td>Instrução sem detalhes suficientes</td>
+          </tr>
+
+          <tr>
+            <td>Bom demais</td>
+            <td>Avaliação extremamente positiva</td>
+          </tr>
+
+          <tr>
+            <td>Só mais uma garfada</td>
+            <td>Expressão relacionada ao ato de comer</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Fragmentos digitais recuperados</h2>
+
+        <p>
+          Diversos registros digitais foram recuperados de uma antiga plataforma chamada
+          <strong>YouTube</strong>.
+        </p>
+
+        <p>Muitos começavam com frases semelhantes:</p>
+
+        <blockquote>
+          "Você não vai acreditar no que dá pra fazer na Garfo para sopa."
+        </blockquote>
+
+        <p>
+          Curiosamente, os registros normalmente mostravam refeições bastante
+          previsíveis.
+        </p>
+
+        <p>
+          Isso levou alguns pesquisadores a considerar que os habitantes de 2026
+          possuíam hábitos alimentares e costumes à mesa bastante particulares.
+        </p>
+      </section>
+
+      <aside id="arqueologo">
+        <h2>Comentário do arqueólogo</h2>
+
+        <h3>Dr. Elias Ventura</h3>
+
+        <p>Instituto de Arqueologia Doméstica — 2200</p>
+
+        <blockquote>
+          Durante muito tempo acreditamos que os garfos para sopa fossem
+          utilizados exclusivamente para alimentos sólidos.
+        </blockquote>
+
+        <blockquote>
+          Entretanto, encontramos referências semelhantes envolvendo café,
+          pizza, sexta-feira, férias, Wi-Fi e Garfo para sopas.
+        </blockquote>
+
+        <blockquote>
+          É improvável que todos estes elementos fossem simultaneamente
+          responsáveis pela necessidade de um garfo específico.
+        </blockquote>
+
+        <p>
+          Atualmente trabalhamos com a hipótese de que os humanos de 2026
+          atribuíam grande importância aos utensílios usados nas refeições.
+        </p>
+      </aside>
+
+      <section>
+        <h2>Teorias rejeitadas</h2>
+
+        <h3>Instrumento musical</h3>
+
+        <p>
+          Durante algum tempo acreditou-se que o garfo poderia ser utilizado
+          como uma pequena ferramenta para produzir sons.
+        </p>
+
+        <p>
+          A hipótese foi abandonada depois de experimentos classificados como
+          <strong>"pouco convincentes"</strong>.
+        </p>
+
+        <h3>Ferramenta de escrita</h3>
+
+        <p>
+          Outro grupo defendeu que o garfo era utilizado para marcar páginas
+          ou pressionar pequenas superfícies.
+        </p>
+
+        <p>
+          A teoria continua tecnicamente possível, embora não existam
+          evidências suficientes.
+        </p>
+      </section>
+
+      <section>
+        <h2>Objeto associado: Tigela de sopa</h2>
+
+        <p>
+          Próximo à Garfo para sopa foi encontrado um recipiente contendo resíduos de
+          uma substância vermelha.
+        </p>
+
+        <p>
+          Posteriormente, o conteúdo foi identificado como
+          <strong>sopa</strong>.
+        </p>
+
+        <p>
+          Alguns pesquisadores defendem que a sopa era consumida
+          utilizando o garfo para sopa em situações específicas.
+        </p>
+
+        <p>
+          Pesquisadores do século XXII ainda contestam esta interpretação.
+        </p>
+      </section>
+
+      <section>
+        <h2>Perguntas ainda sem resposta</h2>
+
+        <ul>
+          <li>Por que os humanos utilizavam diferentes utensílios para cada tipo de alimento?</li>
+
+          <li>Por que algumas residências possuíam duas Garfo para sopas?</li>
+
+          <li>Por que o garfo para sopa possuía quatro pontas?</li>
+
+          <li>Por que algumas sopas eram servidas em tigelas tão profundas?</li>
+
+          <li>Por que algumas famílias possuíam garfos de tamanhos diferentes?</li>
+
+          <li>
+            O que significava exatamente "só mais uma garfada"?
+          </li>
+        </ul>
+      </section>
+
+      <section class="alerta">
+        <h2>⚠ Nota de segurança do museu</h2>
+
+        <p>
+          Visitantes não devem utilizar o artefato arqueológico original
+          durante refeições ou experiências culinárias.
+        </p>
+
+        <p>
+          O incidente envolvendo o pesquisador Almeida e uma tigela de sopa
+          ainda está sob investigação.
+        </p>
+      </section>
+
+      <section>
+        <h2>Classificação final</h2>
+
+        <p>
+          <strong>Nome conhecido:</strong>
+          Garfo para sopa
+        </p>
+
+        <p>
+          <strong>Nome arqueológico:</strong>
+          Utensílio Doméstico de Alimentação Manual
+        </p>
+
+        <p>
+          <strong>Civilização:</strong>
+          Sociedade Digital Pré-Singularidade
+        </p>
+
+        <p>
+          <strong>Período:</strong>
+          aproximadamente 2015–2035
+        </p>
+
+        <p>
+          <strong>Uso confirmado:</strong>
+          preparação de alimentos
+        </p>
+
+        <p>
+          <strong>Uso simbólico:</strong>
+          provavelmente elevado
+        </p>
+
+        <p>
+          <strong>Nível atual de compreensão:</strong>
+          71%
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Museu de Arqueologia Digital — Ano 2200</p>
+
+      <p>Departamento de Estudos da Estranha Civilização do Século XXI</p>
+    </footer>
+  </body>
+</html>
